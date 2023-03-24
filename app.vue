@@ -4,6 +4,7 @@
     <Label :counter="counter" />
     <Button label="+" @updateVal="increment()" />
   </section>
+  <a href="https://github.com/jecfish/nuxi-counter">Github</a>
 </template>
 <script setup>
 import { defineProps, ref } from 'vue'
