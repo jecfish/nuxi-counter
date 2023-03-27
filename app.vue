@@ -7,7 +7,7 @@
   <a href="https://github.com/jecfish/nuxi-counter">Github</a>
 </template>
 <script setup>
-import { defineProps, ref } from 'vue'
+import { ref } from 'vue'
 
 const counter = ref(0);
 
