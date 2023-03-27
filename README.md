@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Counter
+# Demo
 
-- npm install
+- install pnpm, then run `pnpm i`
 
 
 ## Development Server
