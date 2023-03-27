@@ -6,7 +6,13 @@ export default defineNuxtConfig({
   },
   vite: {
     build: {
-      sourcemap: true
+      sourcemap: true,
     },
+    server: {
+      // sourcemapIgnoreList(sourcePath, sourcemapPath) {
+      //   console.log(sourcePath,sourcemapPath);
+      //   return true;
+      // },
+    }
   }
 });
