@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   vite: {
     build: {
       sourcemap: true,
+      minify: false
     },
     server: {
       // sourcemapIgnoreList(sourcePath, sourcemapPath) {
