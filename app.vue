@@ -23,7 +23,7 @@ async function increment() {
     let x;
 
     try {
-      const numRes = await fetch('/random-number').then((n) => {
+      const numRes = await fetch('https://jec.fyi/api/random-number').then((n) => {
         if (n.status === 404) throw new Error('wrong url');
         return n;
       });
